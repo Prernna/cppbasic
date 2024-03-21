@@ -12,6 +12,7 @@ int main(){
 	v.push_back(30);
 	v.push_back(40);
 	v.push_back(50);
+	v.push_back(60);
 		v.pop_back(); //to remove elements from vector we use pop back
 	for(int i=0;i<v.size();i++){
 		cout<<v[i]<<endl;
